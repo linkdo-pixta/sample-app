@@ -30,4 +30,20 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  global:
+    nav:
+      home: "Home"
+      help: "Help"
+      about: "About"
+      contact: "Contact"
+      news: "News"
+      logIn: "Log in"
+  static_pages:
+    home:
+      title: "Sample App"
+      welcome_title: "Welcome to the Sample App"
+      description_html: 'This is the home page for the
+        <a href="http://www.railstutorial.org/">Ruby on Rails
+        Tutorial</a>
+        sample application.'
+      sign_up_btn: "Sign up now!"

@@ -1,0 +1,18 @@
+vi:
+  global:
+    nav:
+      home: "Trang chu"
+      help: "Ho cho"
+      about: "Thong tin"
+      contact: "Lien he"
+      news: "Tin tuc"
+      logIn: "Dang nhap"
+  static_pages:
+    home:
+      title: "Sample App"
+      welcome_title: "Chao mung toi Sample App"
+      description_html: 'Day la trang chu danh cho
+        <a href="http://www.railstutorial.org/">Ruby on Rails
+        Tutorial</a>
+        sample application.'
+      sign_up_btn: "Dang ky ngay!"
