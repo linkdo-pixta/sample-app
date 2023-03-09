@@ -16,7 +16,7 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :test
   host = 'localhost:3000' 
 
-  config.action_mailer.default_url_options = { host: host, protocol: 'https' }
+  config.action_mailer.default_url_options = { host: host, protocol: 'http' }
 
   # Enable/disable caching. By default caching is disabled.
   # Run rails dev:cache to toggle caching.
