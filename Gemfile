@@ -13,6 +13,9 @@ gem 'will_paginate', '3.1.7'
 gem 'bootstrap-will_paginate', '0.0.10'
 gem 'sqlite3'
 gem 'jquery-rails'
+gem 'carrierwave', '0.11.2'
+gem 'mini_magick', '4.5.1'
+gem 'fog', '1.38.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
