@@ -1,9 +1,12 @@
-<% provide(:title,"Home") %>
+<% provide(:title, "Home") %>feed
 <% if logged_in? %>
   <div class="row">
     <aside class="col-md-4">
       <section class="user_info">
         <%= render 'shared/user_info' %>
+      </section>
+      <section class="stats">
+        <%= render 'shared/stats' %>
       </section>
       <section class="micropost_form">
         <%= render 'shared/micropost_form' %>
@@ -24,8 +27,8 @@
     <%= link_to t('.sign_up_btn'), signup_path, class: "btn btn-lg btn-primary" %>
   </div>
   <%= link_to image_tag("rails.png", alt: "Rails logo"),
-'http://rubyonrails.org/' %>
+              'http://rubyonrails.org/' %>
   <%= link_to image_tag("kitten.jpg", alt: "Kitten"),
-'http://rubyonrails.org/' %>
+              'http://rubyonrails.org/' %>
 <% end %>
 
